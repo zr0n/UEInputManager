@@ -18,10 +18,9 @@ bool UInputManagerLibrary::ReBindAxisKey(FInputAxisKeyMapping NewBinding)
 	bool Found = false;
 	for (FInputAxisKeyMapping& Each : Axi)
 	{
-		if (Each.AxisName.ToString().Equals(NewBinding.AxisName.ToString())
-			) {
+		if (Each.AxisName.ToString().Equals(NewBinding.AxisName.ToString()) && Each.Scale == NewBinding.Scale)
+		{
 			Each.Key = NewBinding.Key;
-			Each.Scale = NewBinding.Scale;
 			Found = true;
 			break;
 		}
