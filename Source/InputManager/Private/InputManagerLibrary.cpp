@@ -14,15 +14,12 @@ bool UInputManagerLibrary::ReBindAxisKey(FInputAxisKeyMapping NewBinding)
 
 	TArray<FInputAxisKeyMapping>& Axi = Settings->AxisMappings;
 
-	//~~~
 
 	bool Found = false;
 	for (FInputAxisKeyMapping& Each : Axi)
 	{
-		//Search by original
 		if (Each.AxisName.ToString().Equals(NewBinding.AxisName.ToString())
 			) {
-			//Update to new!
 			Each.Key = NewBinding.Key;
 			Each.Scale = NewBinding.Scale;
 			Found = true;
@@ -32,10 +29,10 @@ bool UInputManagerLibrary::ReBindAxisKey(FInputAxisKeyMapping NewBinding)
 
 	if (Found)
 	{
-		//SAVES TO DISK
+		//Persistence (Save to disk)
 		const_cast<UInputSettings*>(Settings)->SaveKeyMappings();
 
-		//REBUILDS INPUT, creates modified config in Saved/Config/Windows/Input.ini
+		//Save in Saved/Config/Windows/Input.ini
 		for (TObjectIterator<UPlayerInput> It; It; ++It)
 		{
 			It->ForceRebuildingKeyMaps(true);
@@ -51,14 +48,11 @@ bool UInputManagerLibrary::ReBindActionKey(FInputActionKeyMapping NewBinding)
 
 	TArray<FInputActionKeyMapping>& Actions = Settings->ActionMappings;
 
-	//~~~
 	bool Found = false;
 	for (FInputActionKeyMapping& Each : Actions)
 	{
-		//Search by original
 		if (Each.ActionName.ToString().Equals(NewBinding.ActionName.ToString())
 			) {
-			//Update to new!
 			Each = NewBinding;
 			Found = true;
 			break;
@@ -67,10 +61,10 @@ bool UInputManagerLibrary::ReBindActionKey(FInputActionKeyMapping NewBinding)
 
 	if (Found)
 	{
-		//SAVES TO DISK
+		//Persistence
 		const_cast<UInputSettings*>(Settings)->SaveKeyMappings();
 
-		//REBUILDS INPUT, creates modified config in Saved/Config/Windows/Input.ini
+		//Save in Saved/Config/Windows/Input.ini
 		for (TObjectIterator<UPlayerInput> It; It; ++It)
 		{
 			It->ForceRebuildingKeyMaps(true);

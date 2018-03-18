@@ -20,7 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeInputManager_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/InputManager",
 				PKG_CompiledIn | 0x00000000,
-				0x35E9B91A,
+				0x3C8032F1,
 				0x70CE5CCD,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)

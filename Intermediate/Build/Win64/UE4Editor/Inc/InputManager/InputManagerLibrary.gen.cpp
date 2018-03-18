@@ -62,8 +62,9 @@ void EmptyLinkFunctionForGeneratedCodeInputManagerLibrary() {}
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-				{ "Category", "Helpers" },
+				{ "Category", "Input Manager" },
 				{ "ModuleRelativePath", "Public/InputManagerLibrary.h" },
+				{ "ToolTip", "Get Action Key info By Name" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_UInputManagerLibrary, "GetActionKeyByName", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14422401, sizeof(InputManagerLibrary_eventGetActionKeyByName_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
@@ -88,8 +89,9 @@ void EmptyLinkFunctionForGeneratedCodeInputManagerLibrary() {}
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-				{ "Category", "Helpers" },
+				{ "Category", "Input Manager" },
 				{ "ModuleRelativePath", "Public/InputManagerLibrary.h" },
+				{ "ToolTip", "Get All the Action Keys Assigned" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_UInputManagerLibrary, "GetAllActionKeys", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14422401, sizeof(InputManagerLibrary_eventGetAllActionKeys_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
@@ -114,8 +116,9 @@ void EmptyLinkFunctionForGeneratedCodeInputManagerLibrary() {}
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-				{ "Category", "Helpers" },
+				{ "Category", "Input Manager" },
 				{ "ModuleRelativePath", "Public/InputManagerLibrary.h" },
+				{ "ToolTip", "Get All the Axis Inputs Assigned" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_UInputManagerLibrary, "GetAllAxisKeys", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14422401, sizeof(InputManagerLibrary_eventGetAllAxisKeys_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
@@ -148,8 +151,9 @@ void EmptyLinkFunctionForGeneratedCodeInputManagerLibrary() {}
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-				{ "Category", "Helpers" },
+				{ "Category", "Input Manager" },
 				{ "ModuleRelativePath", "Public/InputManagerLibrary.h" },
+				{ "ToolTip", "Get Axis Input info by Name" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_UInputManagerLibrary, "GetAxisKeyByName", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14422401, sizeof(InputManagerLibrary_eventGetAxisKeyByName_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
@@ -176,8 +180,9 @@ void EmptyLinkFunctionForGeneratedCodeInputManagerLibrary() {}
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-				{ "Category", "Helpers" },
+				{ "Category", "Input Manager" },
 				{ "ModuleRelativePath", "Public/InputManagerLibrary.h" },
+				{ "ToolTip", "Reassign an Action" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_UInputManagerLibrary, "ReBindActionKey", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04022401, sizeof(InputManagerLibrary_eventReBindActionKey_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
@@ -204,9 +209,9 @@ void EmptyLinkFunctionForGeneratedCodeInputManagerLibrary() {}
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-				{ "Category", "Helpers" },
+				{ "Category", "Input Manager" },
 				{ "ModuleRelativePath", "Public/InputManagerLibrary.h" },
-				{ "ToolTip", "Static Functions" },
+				{ "ToolTip", "Reassign an Axis" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_UInputManagerLibrary, "ReBindAxisKey", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04022401, sizeof(InputManagerLibrary_eventReBindAxisKey_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
@@ -228,12 +233,12 @@ void EmptyLinkFunctionForGeneratedCodeInputManagerLibrary() {}
 				(UObject* (*)())Z_Construct_UPackage__Script_InputManager,
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
-				{ &Z_Construct_UFunction_UInputManagerLibrary_GetActionKeyByName, "GetActionKeyByName" }, // 3950338427
-				{ &Z_Construct_UFunction_UInputManagerLibrary_GetAllActionKeys, "GetAllActionKeys" }, // 2655340105
-				{ &Z_Construct_UFunction_UInputManagerLibrary_GetAllAxisKeys, "GetAllAxisKeys" }, // 4019101130
-				{ &Z_Construct_UFunction_UInputManagerLibrary_GetAxisKeyByName, "GetAxisKeyByName" }, // 2843293079
-				{ &Z_Construct_UFunction_UInputManagerLibrary_ReBindActionKey, "ReBindActionKey" }, // 3011402807
-				{ &Z_Construct_UFunction_UInputManagerLibrary_ReBindAxisKey, "ReBindAxisKey" }, // 2315737078
+				{ &Z_Construct_UFunction_UInputManagerLibrary_GetActionKeyByName, "GetActionKeyByName" }, // 1770899117
+				{ &Z_Construct_UFunction_UInputManagerLibrary_GetAllActionKeys, "GetAllActionKeys" }, // 1144109038
+				{ &Z_Construct_UFunction_UInputManagerLibrary_GetAllAxisKeys, "GetAllAxisKeys" }, // 2761786125
+				{ &Z_Construct_UFunction_UInputManagerLibrary_GetAxisKeyByName, "GetAxisKeyByName" }, // 3889568268
+				{ &Z_Construct_UFunction_UInputManagerLibrary_ReBindActionKey, "ReBindActionKey" }, // 623141327
+				{ &Z_Construct_UFunction_UInputManagerLibrary_ReBindAxisKey, "ReBindAxisKey" }, // 1457679277
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -259,7 +264,7 @@ void EmptyLinkFunctionForGeneratedCodeInputManagerLibrary() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UInputManagerLibrary, 192325754);
+	IMPLEMENT_CLASS(UInputManagerLibrary, 3928637076);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UInputManagerLibrary(Z_Construct_UClass_UInputManagerLibrary, &UInputManagerLibrary::StaticClass, TEXT("/Script/InputManager"), TEXT("UInputManagerLibrary"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UInputManagerLibrary);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
