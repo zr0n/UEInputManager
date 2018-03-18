@@ -1,0 +1,19 @@
+{
+    "FileVersion" : 3,
+ 
+    "FriendlyName" : "Input Manager by Unzkilled Nando",
+    "Version" : 1,
+    "VersionName": "1.0",
+    "Description" : "Reassign actions and axis at runtime, saving it to disk. Easy to use.",
+    "Category" : "Input",
+    "CreatedBy" : "Unzkilled Nando",
+    "CreatedByURL" : "http://souluizfernando.com",
+ 
+    "Modules" :
+    [
+        {
+            "Name" : "InputManager",
+            "Type" : "Runtime"
+        } 
+    ]
+}
