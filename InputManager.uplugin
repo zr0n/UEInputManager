@@ -1,19 +1,22 @@
 {
-    "FileVersion" : 3,
- 
-    "FriendlyName" : "Input Manager by Unzkilled Nando",
-    "Version" : 1,
+    "FileVersion": 3,
+
+    "FriendlyName": "Input Manager by Unzkilled Nando",
+    "Version": 1,
     "VersionName": "1.0",
-    "Description" : "Reassign actions and axis at runtime, saving it to disk. Easy to use.",
-    "Category" : "Input",
-    "CreatedBy" : "Unzkilled Nando",
-    "CreatedByURL" : "http://souluizfernando.com",
- 
-    "Modules" :
-    [
+    "Description": "Reassign actions and axis at runtime, saving it to disk. Easy to use.",
+    "Category": "Input",
+    "CreatedBy": "Unzkilled Nando",
+    "CreatedByURL": "http://souluizfernando.com",
+
+    "Modules": [
         {
-            "Name" : "InputManager",
-            "Type" : "Runtime"
-        } 
-    ]
+            "Name": "InputManager",
+            "Type": "Runtime"
+        }
+    ],
+
+    "WhitelistPlatforms": [ "Win64", "Win32", "Mac", "IOS", "Android" ],
+    "EngineVersion": "4.19.0",
+    "MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/0397786367f64e9cbaebc93605e18dda"
 }
