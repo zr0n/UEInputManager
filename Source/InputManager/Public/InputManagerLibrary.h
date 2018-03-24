@@ -15,7 +15,8 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 */
 #pragma once
-
+#include "InputManagerModule.h"
+#include "InputManagerPrivatePCH.h"
 #include "CoreMinimal.h"
 #include "UObject/ObjectMacros.h"
 #include "Runtime/Engine/Classes/GameFramework/PlayerInput.h"
