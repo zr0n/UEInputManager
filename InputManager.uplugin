@@ -17,6 +17,6 @@
     ],
 
     "WhitelistPlatforms": [ "Win64", "Win32", "Mac", "IOS", "Android" ],
-    "EngineVersion": "4.19.0",
+    "EngineVersion": "4.19",
     "MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/0397786367f64e9cbaebc93605e18dda"
 }
