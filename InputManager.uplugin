@@ -17,7 +17,8 @@
 		{
 			"Name": "InputManager",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [ "Win64", "Win32", "Mac", "HTML5", "Linux", "PS4", "XboxOne" ]
 		}
 	]
 }
